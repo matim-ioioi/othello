@@ -1,0 +1,49 @@
+unit Unit1;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, jpeg, ExtCtrls, StdCtrls, Buttons, Unit2, Unit3;
+
+type
+  TForm1 = class(TForm)
+    Image1: TImage;
+    Label1: TLabel;
+    Play: TBitBtn;
+    Help: TBitBtn;
+    Exit: TBitBtn;
+    procedure ExitClick(Sender: TObject);
+    procedure PlayClick(Sender: TObject);
+    procedure HelpClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.PlayClick(Sender: TObject);
+begin
+  Form1.Hide;
+  Form2.Show;
+end;
+
+procedure TForm1.HelpClick(Sender: TObject);
+begin
+  Form1.Hide;
+  Form3.Show;
+end;
+
+procedure TForm1.ExitClick(Sender: TObject);
+begin
+  Close;
+end;
+
+end.

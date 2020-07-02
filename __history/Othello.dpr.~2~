@@ -1,0 +1,18 @@
+program Othello;
+
+uses
+  Forms,
+  Menu in 'Menu.pas' {fmMenu},
+  Game in 'Game.pas' {fmGame},
+  Help in 'Help.pas' {fmHelp};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfmMenu, fmMenu);
+  Application.CreateForm(TfmGame, fmGame);
+  Application.CreateForm(TfmHelp, fmHelp);
+  Application.Run;
+end.

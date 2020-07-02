@@ -1,0 +1,35 @@
+unit AcceptExit;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, Buttons;
+
+type
+  TAcceptEx = class(TForm)
+    Label1: TLabel;
+    YesEx: TBitBtn;
+    NoEx: TBitBtn;
+    procedure YesExClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  AcceptEx: TAcceptEx;
+
+implementation
+uses
+  Menu;
+
+{$R *.dfm}
+
+procedure TAcceptEx.YesExClick(Sender: TObject);
+begin
+  fmMenu.Close;
+end;
+
+end.

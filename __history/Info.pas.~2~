@@ -1,0 +1,36 @@
+unit Info;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs;
+
+type
+  TfmInfo = class(TForm)
+    procedure FormClick(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  fmInfo: TfmInfo;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfmInfo.FormClick(Sender: TObject);
+begin
+  Close;
+end;
+
+procedure TfmInfo.FormCreate(Sender: TObject);
+begin
+  DoubleBuffered:= true;
+end;
+
+end.

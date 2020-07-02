@@ -1,0 +1,47 @@
+object fmAcceptExit: TfmAcceptExit
+  Left = 0
+  Top = 0
+  BorderStyle = bsSingle
+  Caption = 'Othello'
+  ClientHeight = 200
+  ClientWidth = 500
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 48
+    Top = 32
+    Width = 407
+    Height = 33
+    Caption = 'Are you sure that you want leave the game?'
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Buxton Sketch'
+    Font.Style = []
+    ParentFont = False
+  end
+  object YesEx: TBitBtn
+    Left = 48
+    Top = 120
+    Width = 145
+    Height = 49
+    TabOrder = 0
+    OnClick = YesExClick
+  end
+  object NoEx: TBitBtn
+    Left = 310
+    Top = 120
+    Width = 145
+    Height = 49
+    TabOrder = 1
+    OnClick = NoExClick
+  end
+end

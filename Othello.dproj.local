@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018.04.22 20:33:52.568.pas,C:\Users\timam\Documents\RAD Studio\Projects\Unit1.pas=F:\Delphi\revers\Unit1.pas</Transaction>
+    <Transaction>2018.04.22 20:33:52.568.dfm,C:\Users\timam\Documents\RAD Studio\Projects\Unit1.dfm=F:\Delphi\revers\Unit1.dfm</Transaction>
+    <Transaction>2018.04.22 20:33:57.977.dproj,C:\Users\timam\Documents\RAD Studio\Projects\Project2.dproj=F:\Delphi\revers\Project2.dproj</Transaction>
+    <Transaction>2018.04.23 21:36:02.920.dproj,F:\Delphi\revers\Project2.dproj=F:\Delphi\revers\Othello.dproj</Transaction>
+    <Transaction>2018.05.07 10:00:43.414.pas,E:\Delphi\Othello\Unit1.pas=E:\Delphi\Othello\AcceptExit.pas</Transaction>
+    <Transaction>2018.05.07 10:00:43.417.dfm,E:\Delphi\Othello\Unit1.dfm=E:\Delphi\Othello\AcceptExit.dfm</Transaction>
+    <Transaction>2018.05.07 10:02:50.104.dproj,E:\Delphi\Othello\Othello.dproj=E:\Delphi\Othello\Othello.dproj</Transaction>
+    <Transaction>2018.05.14 12:01:56.734.pas,E:\Delphi\Othello\Unit1.pas=E:\Delphi\Othello\Info.pas</Transaction>
+    <Transaction>2018.05.14 12:01:56.734.dfm,E:\Delphi\Othello\Unit1.dfm=E:\Delphi\Othello\Info.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
