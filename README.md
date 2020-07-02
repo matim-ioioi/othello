@@ -1,2 +1,2 @@
 # othello
-This is game "Othello"
+This is "Othello" game written in Delphi
